@@ -29,4 +29,5 @@
     <projects id="projects" />
     <contact id="contact" />
   </nuxt-layout>
+  <h1>Hello</h1>
 </template>
