@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "portfolio_nuxt",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,5 +19,18 @@
   "dependencies": {
     "nuxt-swiper": "^1.2.2",
     "vue-fixed-header": "^3.2.15"
-  }
+  },
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacetechnical/portfolio_nuxt.git"
+  },
+  "author": "Yuzbashyev Muhammetaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacetechnical/portfolio_nuxt/issues"
+  },
+  "homepage": "https://github.com/spacetechnical/portfolio_nuxt#readme"
 }
