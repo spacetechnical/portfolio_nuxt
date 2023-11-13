@@ -29,7 +29,7 @@
         </p>
         <a
           href="#contact"
-          class="text-base sm:text-lg lg:text-xl inline-block bg-blue text-white px-16 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform"
+          class="text-base sm:text-lg lg:text-xl inline-block bg-blue text-white px-16 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform hover:ease-in-out hover:duration-500"
         >
           Contact
         </a>

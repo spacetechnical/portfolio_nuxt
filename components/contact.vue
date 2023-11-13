@@ -47,7 +47,7 @@
         <div class="flex justify-end">
           <button
             @click.prevent="listen"
-            class="w-full sm:w-auto bg-blue text-white px-16 py-5 rounded-lg hover:-translate-y-1 hover:transition-transform hover:shadow-lg"
+            class="w-full sm:w-auto bg-blue text-white px-16 py-5 rounded-lg hover:-translate-y-1 hover:transition-transform hover:shadow-lg hover:duration-500 hover:ease-in-out"
           >
             Submit
           </button>

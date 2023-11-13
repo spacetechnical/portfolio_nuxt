@@ -14,7 +14,7 @@
         </p>
         <a
           href="#projects"
-          class="text-base sm:text-lg lg:text-xl inline-block bg-chelsea-blue text-white px-20 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform"
+          class="text-base sm:text-lg lg:text-xl inline-block bg-chelsea-blue text-white px-20 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform hover:duration-500 hover:ease-in-out"
         >
           Projects
         </a>
