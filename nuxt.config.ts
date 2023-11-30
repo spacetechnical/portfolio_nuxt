@@ -6,4 +6,5 @@ export default defineNuxtConfig({
   tailwindcss: {
     configPath: "~/tailwind.config.js",
   },
+  router: {},
 });

@@ -27,12 +27,12 @@
           good opportunity that matches my skills and experience then don't
           hesitate to contact me.
         </p>
-        <a
-          href="#contact"
+        <nuxt-link
+          :to="{ path: '/', hash: '#contact' }"
           class="text-base sm:text-lg lg:text-xl inline-block bg-blue text-white px-16 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform hover:ease-in-out hover:duration-500"
         >
           Contact
-        </a>
+        </nuxt-link>
       </div>
       <div class="text-left bg-alice-blue p-10 rounded-lg shadow-md h-4/5">
         <h2 class="text-2xl mb-10">My Skills</h2>

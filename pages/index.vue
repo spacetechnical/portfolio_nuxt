@@ -12,12 +12,12 @@
           I'm a Web Developer specializing in Frontend of Websites and Web
           Applications that won't leave you behind
         </p>
-        <a
-          href="#projects"
+        <nuxt-link
+          :to="{ path: '/', hash: '#projects' }"
           class="text-base sm:text-lg lg:text-xl inline-block bg-chelsea-blue text-white px-20 py-5 rounded-lg hover:shadow-lg hover:-translate-y-1 hover:transition-transform hover:duration-500 hover:ease-in-out"
         >
           Projects
-        </a>
+        </nuxt-link>
       </div>
       <div class="w-7 h-12 border-2 rounded-xl relative">
         <span
@@ -27,6 +27,6 @@
     </section>
     <about id="about" />
     <projects id="projects" />
-    <contact id="contact" />
+    <!-- <contact id="contact" /> -->
   </nuxt-layout>
 </template>

@@ -22,36 +22,40 @@
       </div>
       <nav>
         <ul class="flex flex-col gap-2 p-5">
-          <a class="text-xl" @click="activateBtn">
+          <nuxt-link
+            :to="{ path: '/', hash: '#home' }"
+            class="text-xl"
+            @click="activateBtn"
+          >
             Muhammetaly
             <span class="text-blue">Yuzbashyev</span>
-          </a>
+          </nuxt-link>
 
-          <a
+          <nuxt-link
+            :to="{ path: '/', hash: '#home' }"
             class="mb-2 text-xl hover:text-blue hover:duration-300 transition cursor-pointer"
             @click="activateBtn"
-            href="#home"
           >
             Home
-          </a>
-          <a
+          </nuxt-link>
+          <nuxt-link
+            :to="{ path: '/', hash: '#about' }"
             class="mb-2 text-xl hover:text-blue hover:duration-300 transition"
             @click="activateBtn"
-            href="#about"
-            >About</a
+            >About</nuxt-link
           >
-          <a
+          <nuxt-link
+            :to="{ path: '/', hash: '#projects' }"
             class="mb-2 text-xl hover:text-blue hover:duration-300 transition"
             @click="activateBtn"
-            href="#projects"
-            >Projects</a
+            >Projects</nuxt-link
           >
-          <a
+          <!-- <nuxt-link
+            :to="{ path: '/', hash: '#contact' }"
             class="text-xl hover:text-blue hover:duration-300 transition"
             @click="activateBtn"
-            href="#contact"
-            >Contact</a
-          >
+            >Contact</nuxt-link
+          > -->
         </ul>
       </nav>
     </header>
@@ -63,9 +67,11 @@
     >
       <nav>
         <ul class="flex justify-between items-center">
-          <a class="text-xl cursor-pointer"
+          <nuxt-link
+            :to="{ path: '/', hash: '#home' }"
+            class="text-xl cursor-pointer"
             >Muhammetaly
-            <span class="text-chelsea-blue" href="#home">Yuzbashyev</span></a
+            <span class="text-chelsea-blue">Yuzbashyev</span></nuxt-link
           >
           <button class="lg:hidden" @click="activateBtn">
             <svg
@@ -96,34 +102,34 @@
             </svg>
           </button>
           <li class="hidden lg:block">
-            <a
+            <nuxt-link
+              :to="{ path: '/', hash: '#home' }"
               class="text-xl hover:text-blue hover:duration-300 transition cursor-pointer"
-              href="#home"
             >
               Home
-            </a>
-            <a
+            </nuxt-link>
+            <nuxt-link
+              :to="{ path: '/', hash: '#about' }"
               class="text-xl ml-8 hover:text-blue hover:duration-300 transition cursor-pointer"
-              href="#about"
-              >About</a
+              >About</nuxt-link
             >
-            <a
+            <nuxt-link
+              :to="{ path: '/', hash: '#projects' }"
               class="text-xl ml-8 hover:text-blue hover:duration-300 transition cursor-pointer"
-              href="#projects"
-              >Projects</a
+              >Projects</nuxt-link
             >
-            <a
+            <!-- <nuxt-link
+              :to="{ path: '/', hash: '#contact' }"
               class="text-xl ml-8 hover:text-blue hover:duration-300 transition cursor-pointer"
-              href="#contact"
-              >Contact</a
-            >
+              >Contact</nuxt-link
+            > -->
           </li>
         </ul>
       </nav>
     </header>
 
     <slot />
-    <footer class="bg-blue w-full py-5 text-white mt-20">
+    <footer class="bg-blue w-full py-5 text-white">
       <div class="w-9/12 m-auto">
         <div
           class="flex flex-col gap-10 sm:gap-0 sm:flex-row justify-between items-start border-b py-16"
